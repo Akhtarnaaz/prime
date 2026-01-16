@@ -7,4 +7,8 @@ def prime(n):
     return True
 if __name__ =="__main__":
     import sys
-    print(prime(int(sys.argv[1])))
+    isprime =  prime(int(sys.argv[1]))
+    if isprime:
+      print("number is prime")
+    else:
+        print("number is not prime")  
